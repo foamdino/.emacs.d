@@ -2,8 +2,10 @@
 (add-to-list 'load-path "~/.emacs.d/user-lisp/color-theme")
 
 (require 'color-theme)
-(require 'color-theme-tango)
-(color-theme-tango)
+;(require 'color-theme-tango)
+(require 'color-theme-zenburn)
+;(color-theme-tango)
+(color-theme-zenburn)
                                         ;
 ; hide toolbar and scrollbar
 (tool-bar-mode 0)

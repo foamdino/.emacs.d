@@ -143,6 +143,8 @@ are interchanged."
 (require 'python-customisations)
 (require 'javascript-customisations)
 
+(require 'go-customisations)
+
 (require 'potato-customisations)
 
 ; better git handling
