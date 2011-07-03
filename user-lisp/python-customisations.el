@@ -53,7 +53,7 @@
   (hide-body))
 
 ; load when we open a python file
-(add-hook 'python-mode-hook 'python-outline-minor-mode)
+;;(add-hook 'python-mode-hook 'python-outline-minor-mode)
 
 (defun insert-break-point ()
   (interactive)
