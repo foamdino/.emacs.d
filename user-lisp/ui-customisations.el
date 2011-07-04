@@ -6,6 +6,8 @@
 (require 'color-theme-zenburn)
 ;(color-theme-tango)
 (color-theme-zenburn)
+
+(set-default-font "-*-terminus-medium-*-*-*-*-*-*-*-*-*-cp1251")
                                         ;
 ; hide toolbar and scrollbar
 (tool-bar-mode 0)
