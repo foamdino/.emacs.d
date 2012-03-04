@@ -6,6 +6,12 @@
 ; some plugins (at least w3) install themselves here:
 (add-to-list 'load-path "/usr/share/emacs/site-lisp")
 
+; for package, the emacs package manager
+(add-to-list 'load-path "~/.emacs.d/packages")
+(require 'package)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(package-initialize)
+
 (require 'ui-customisations)
 (require 'startup-customisations)
 
